@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Bergtouren WebApp">
+<title>1970er_Otto_Mayer_Huette</title>
+
+<link rel="stylesheet" href="../style.css">
+<link rel="manifest" href="../manifest.json">
+
+<link rel="apple-touch-icon" sizes="180x180" href="../icon-180.png">
+<link rel="apple-touch-icon" sizes="152x152" href="../icon-152.png">
+<link rel="apple-touch-icon" sizes="120x120" href="../icon-120.png">
+<link rel="apple-touch-icon" sizes="76x76" href="../icon-76.png">
+
+<link rel="icon" type="image/png" sizes="32x32" href="../favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../favicon-16.png">
+
+</head>
+<body>
+
+<div class="header-bar video-page">
+  <a href="../index.html">← Übersicht</a>
+  <div class="title">1970er_Otto_Mayer_Huette</div>
+  <noscript>
+    <span style="color: #cc0000; font-size: 0.7em; font-weight: bold; border: 1px solid #cc0000; padding: 2px 5px; border-radius: 4px; margin-left: 5px; white-space: nowrap;">
+      ⚠️ Java Script inaktiv: Steuerung/Ton mglw. limitiert
+    </span>
+  </noscript>
+  
+  <a class="spa-link" href="1970er_Otto_Mayer_Huette_thumbs.html" title="Galerie oben">🖼</a><a class="spa-link" href="1970er_Otto_Mayer_Huette_thumbs.html" title="Galerie Position wie Video">Bilder</a>
+  <a href="../index.html#1970er_Otto_Mayer_Huette">↺ Zurück zum Video</a>
+</div>
+
+<div id="video-wrapper">
+    <video id="player" controls playsinline loop poster="1970er_Otto_Mayer_Huette.jpg" data-timeline='{"0.000":"000_IMG_3036","5.000":"IMG_3025","10.000":"IMG_3026","15.000":"IMG_3027","20.000":"IMG_3028","25.000":"IMG_3029","30.000":"IMG_3030","35.000":"IMG_3031","40.000":"IMG_3032","45.000":"IMG_3033","50.000":"IMG_3034","55.000":"IMG_3035","60.000":"IMG_3036","65.000":"IMG_3037","70.000":"IMG_3038","75.000":"IMG_3039","80.000":"IMG_3040","85.000":"IMG_3041","90.000":"IMG_3042","95.000":"IMG_3043"}' data-timeline-chapters='{"0.000":"000_IMG_3036"}'>
+        <source src="1970er_Otto_Mayer_Huette.mp4" type="video/mp4">
+    </video>
+
+    <button id="toggle-chapters" title="Kapitel anzeigen (verschiebbar)">
+        <svg viewBox="0 0 24 24"><path d="M3 13h2v-2H3v2zm0 4h2v-2H3v2zm0-8h2V7H3v2zm4 4h14v-2H7v2zm0 4h14v-2H7v2zM7 7v2h14V7H7z"/></svg>
+    </button>
+
+    <nav id="chapter-nav" class="hidden"></nav>
+</div>
+
+<div id="thumbs-overlay">
+    <button id="close-overlay" title="Galerie schließen">&times;</button>
+    <div id="thumbs-content-target"></div>
+</div>
+
+<script src="../video.js"></script>
+
+</body>
+</html>

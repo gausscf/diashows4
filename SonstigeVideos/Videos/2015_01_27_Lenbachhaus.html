@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Sonstige Videos WebApp">
+<title>2015_01_27_Lenbachhaus</title>
+
+<link rel="stylesheet" href="../style.css">
+<link rel="manifest" href="../manifest.json">
+
+<link rel="apple-touch-icon" sizes="180x180" href="../icon-180.png">
+<link rel="apple-touch-icon" sizes="152x152" href="../icon-152.png">
+<link rel="apple-touch-icon" sizes="120x120" href="../icon-120.png">
+<link rel="apple-touch-icon" sizes="76x76" href="../icon-76.png">
+
+<link rel="icon" type="image/png" sizes="32x32" href="../favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../favicon-16.png">
+
+</head>
+<body>
+
+<div class="header-bar video-page">
+  <a href="../index.html">← Übersicht</a>
+  <div class="title">2015_01_27_Lenbachhaus</div>
+  <noscript>
+    <span style="color: #cc0000; font-size: 0.7em; font-weight: bold; border: 1px solid #cc0000; padding: 2px 5px; border-radius: 4px; margin-left: 5px; white-space: nowrap;">
+      ⚠️ Java Script inaktiv: Steuerung/Ton mglw. limitiert
+    </span>
+  </noscript>
+  
+  <a class="spa-link" href="2015_01_27_Lenbachhaus_thumbs.html" title="Galerie oben">🖼</a><a class="spa-link" href="2015_01_27_Lenbachhaus_thumbs.html" title="Galerie Position wie Video">Bilder</a>
+  <a href="../index.html#2015_01_27_Lenbachhaus">↺ Zurück zum Video</a>
+</div>
+
+<div id="video-wrapper">
+    <video id="player" controls playsinline loop poster="2015_01_27_Lenbachhaus.jpg" data-timeline='{"0.000":"000_BvLf_iPh5s_1508","5.000":"BqUi_iPh5s_1498","10.000":"BrLv_iPh5s_1499","15.000":"BrLv_iPh5s_1501","20.000":"BtHs_iPh5s_1502","25.000":"BuWc_iPh5s_1504","30.000":"BvKh_iPh5s_1506","35.000":"BvLf_iPh5s_1508","40.000":"BvLf_iPh5s_1509","45.000":"BwAv_iPh5s_1510","50.000":"BwAv_iPh5s_1511","55.000":"BwAv_iPh5s_1512","60.000":"BxTy_iPh5s_1513","65.000":"BzGo_iPh5s_1516","70.000":"BzHj_iPh5s_1517","75.000":"CcOc_iPh5s_1520","80.000":"CcOc_iPh5s_1522","85.000":"CdMz_iPh5s_1524","90.000":"CdNr_iPh5s_1525","95.000":"CdUb_iPh5s_1527","100.000":"CeJd_iPh5s_1529","105.000":"CeJy_iPh5s_1530"}' data-timeline-chapters='{"0.000":"000_BvLf_iPh5s_1508"}'>
+        <source src="2015_01_27_Lenbachhaus.mp4" type="video/mp4">
+    </video>
+
+    <button id="toggle-chapters" title="Kapitel anzeigen (verschiebbar)">
+        <svg viewBox="0 0 24 24"><path d="M3 13h2v-2H3v2zm0 4h2v-2H3v2zm0-8h2V7H3v2zm4 4h14v-2H7v2zm0 4h14v-2H7v2zM7 7v2h14V7H7z"/></svg>
+    </button>
+
+    <nav id="chapter-nav" class="hidden"></nav>
+</div>
+
+<div id="thumbs-overlay">
+    <button id="close-overlay" title="Galerie schließen">&times;</button>
+    <div id="thumbs-content-target"></div>
+</div>
+
+<script src="../video.js"></script>
+
+</body>
+</html>

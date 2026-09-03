@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Sonstige Videos WebApp">
+<title>1982_Katzen</title>
+
+<link rel="stylesheet" href="../style.css">
+<link rel="manifest" href="../manifest.json">
+
+<link rel="apple-touch-icon" sizes="180x180" href="../icon-180.png">
+<link rel="apple-touch-icon" sizes="152x152" href="../icon-152.png">
+<link rel="apple-touch-icon" sizes="120x120" href="../icon-120.png">
+<link rel="apple-touch-icon" sizes="76x76" href="../icon-76.png">
+
+<link rel="icon" type="image/png" sizes="32x32" href="../favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../favicon-16.png">
+
+</head>
+<body>
+
+<div class="header-bar video-page">
+  <a href="../index.html">← Übersicht</a>
+  <div class="title">1982_Katzen</div>
+  <noscript>
+    <span style="color: #cc0000; font-size: 0.7em; font-weight: bold; border: 1px solid #cc0000; padding: 2px 5px; border-radius: 4px; margin-left: 5px; white-space: nowrap;">
+      ⚠️ Java Script inaktiv: Steuerung/Ton mglw. limitiert
+    </span>
+  </noscript>
+  
+  <a class="spa-link" href="1982_Katzen_thumbs.html" title="Galerie oben">🖼</a><a class="spa-link" href="1982_Katzen_thumbs.html" title="Galerie Position wie Video">Bilder</a>
+  <a href="../index.html#1982_Katzen">↺ Zurück zum Video</a>
+</div>
+
+<div id="video-wrapper">
+    <video id="player" controls playsinline loop poster="1982_Katzen.jpg" data-timeline='{"0.000":"FwUy_A1_6074","5.000":"FzMe_A1_6075","10.000":"GcDk_A1_6076","15.000":"GeUq_A1_8245","20.000":"GhLw_A1_8246","25.000":"GkDc_A1_8247","30.000":"GmUi_A1_8248","35.000":"GpLo_A1_8249","40.000":"GsCu_A1_8251","45.000":"GuUa_A1_8252","50.000":"GxLg_A1_8253","55.000":"HaCm_A1_8254","60.000":"HcTs_A1_0382"}' data-timeline-chapters='{"0.000":"FwUy_A1_6074"}'>
+        <source src="1982_Katzen.mp4" type="video/mp4">
+    </video>
+
+    <button id="toggle-chapters" title="Kapitel anzeigen (verschiebbar)">
+        <svg viewBox="0 0 24 24"><path d="M3 13h2v-2H3v2zm0 4h2v-2H3v2zm0-8h2V7H3v2zm4 4h14v-2H7v2zm0 4h14v-2H7v2zM7 7v2h14V7H7z"/></svg>
+    </button>
+
+    <nav id="chapter-nav" class="hidden"></nav>
+</div>
+
+<div id="thumbs-overlay">
+    <button id="close-overlay" title="Galerie schließen">&times;</button>
+    <div id="thumbs-content-target"></div>
+</div>
+
+<script src="../video.js"></script>
+
+</body>
+</html>

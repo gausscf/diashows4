@@ -1,0 +1,53 @@
+###Input_File	Marker	keep_Audio	Start_formatiert	Ende_formatiert	Start_(sek.)	Ende_(sek.)	Länge_(sek.)	Beschreibung	Ort	Lokation	DateTime	AddToStart	1.0
+1_Berlin_01_E.Hoessle.jpg		no	0:00	0:05	0.000	5.000	5.000	Elisabeth Hößle und Brigitte Doser (rechts)			21.11.11 (Mo) 21:29		
+1_Berlin_02_E.Hoessle.jpg		no	0:05	0:10	5.000	10.000	5.000	Brigitte Doser und Elisabeth Hößle (rechts)			21.11.11 (Mo) 21:31		
+1_Berlin_03_E.Hoessle.jpg		no	0:10	0:15	10.000	15.000	5.000	Doris Heising, Brigitte Doser, Rosemarie Georgi,			21.11.11 (Mo) 21:32		
+1_Berlin_04_E.Hoessle.jpg		no	0:15	0:20	15.000	20.000	5.000	Andreas Dinsenbacher (links), mit Brille Barbara Obstmeier u.v.a.			21.11.11 (Mo) 21:34		
+1_Berlin_05_E.Hoessle.jpg		no	0:20	0:25	20.000	25.000	5.000	Auf dem Alexanderplatz			21.11.11 (Mo) 21:35		
+1_Berlin_06_E.Hoessle.jpg		no	0:25	0:30	25.000	30.000	5.000	Brigitte Doser, Gertrud Adam, Rosemarie Georgi, Doris Heising (hinten)			21.11.11 (Mo) 21:37		
+1_Berlin_07_E.Hoessle.jpg		no	0:30	0:35	30.000	35.000	5.000	Elisabeth Hößle, Rosemarie Georgi, Brigitte Doser,			21.11.11 (Mo) 21:39		
+1_Berlin_07a_E.Hoessle.jpg		no	0:35	0:40	35.000	40.000	5.000	Marita Simchen, Elisabeth Hößle, Rosemarie Georgi,			21.11.11 (Mo) 21:28		
+1_Berlin_08_E.Hoessle.jpg		no	0:40	0:45	40.000	45.000	5.000	Marita Simchen und Brigitte Doser (rechts)			21.11.11 (Mo) 21:40		
+1_Berlin_09_E.Hoessle.jpg		no	0:45	0:50	45.000	50.000	5.000	Marita Simchen, Elisabeth Hößle, Brigitte Doser, Gertrud Adam (v.l.n.r.)			21.11.11 (Mo) 21:42		
+1_Berlin_10_E.Hoessle.jpg		no	0:50	0:55	50.000	55.000	5.000	Brigitte Doser, Elisabeth Hößle, Margit Husel,			21.11.11 (Mo) 21:44		
+2_Wann_0_E.Hoessle.jpg		no	0:55	1:00	55.000	60.000	5.000	Marita Simchen, Doris Heising, Hößle, Rosemarie Georgi (v.l.n.r)			21.11.11 (Mo) 21:45		
+2_Wann_1_E.Hoessle.jpg		no	1:00	1:05	60.000	65.000	5.000	Elisabeth Hößle			21.11.11 (Mo) 21:47		
+2_Wann_2_E.Hoessle.jpg		no	1:05	1:10	65.000	70.000	5.000	Marita Simchen, Elisabeth Hößle (rechts)			21.11.11 (Mo) 21:48		
+2_Wann_3_E.Hoessle.jpg		no	1:10	1:15	70.000	75.000	5.000	Annette Wohlfahrt (hinten links), Gertrud Adam, Elisabeth Hößle (rechts)			21.11.11 (Mo) 21:50		
+2_Wann_4_E.Hoessle.jpg		no	1:15	1:20	75.000	80.000	5.000	Petra Loibl, Gertrud Adam, Rosemarie Georgi, Brigitte Doser (hinten			21.11.11 (Mo) 21:52		
+3_Herbst_72_0_E.Hoessle.jpg		no	1:20	1:25	80.000	85.000	5.000	Marita Simchen, Irene Epple, Gertrud Adam,			21.11.11 (Mo) 22:13		
+3_Herbst_72_1_E.Hoessle.jpg		no	1:25	1:30	85.000	90.000	5.000	Rosemarie Georgi, Elisabeth Hößle, Andreas Dinsenbacher, Petra			21.11.11 (Mo) 22:16		
+4_Muenchen_0_E.Hoessle.jpg		no	1:30	1:35	90.000	95.000	5.000	In München			21.11.11 (Mo) 22:02		
+4_Muenchen_1_E.Hoessle.jpg		no	1:35	1:40	95.000	100.000	5.000	Doris Heising, Angelika Brunhöfer, Irene Epple, Elisabeth Hößle (v.l.n.r.)			21.11.11 (Mo) 22:05		
+4_Muenchen_2_E.Hoessle.jpg		no	1:40	1:45	100.000	105.000	5.000	Elisabeth Hößle			21.11.11 (Mo) 22:07		
+4_Muenchen_3_E.Hoessle.jpg		no	1:45	1:50	105.000	110.000	5.000	Marita Simchen			21.11.11 (Mo) 22:09		
+5_Paris_01_E.Hoessle.jpg		no	1:50	1:55	110.000	115.000	5.000	Elisabeth Hößle und Marlies Reichart (rechts)			21.11.11 (Mo) 19:58		
+5_Paris_02_E.Hoessle.jpg		no	1:55	2:00	115.000	120.000	5.000	Peter John, Doris Heising, Rosemarie Georgi,			21.11.11 (Mo) 20:04		
+5_Paris_03_E.Hoessle.jpg		no	2:00	2:05	120.000	125.000	5.000	Elisabeth Hößle, Marita Simchen, Doris Heising, Rosemarie Georgi (v.l.n.r.)			21.11.11 (Mo) 20:12		
+5_Paris_04_E.Hoessle.jpg		no	2:05	2:10	125.000	130.000	5.000	Peter John, Doris Heising, Elisabeth Hößle (v.l.n.r.)			21.11.11 (Mo) 20:16		
+5_Paris_05_E.Hoessle.jpg		no	2:10	2:15	130.000	135.000	5.000	Monika Doser, Brigitte Doser, Doris Heising, Elisabeth Hößle, Rosemarie Georgi (v.l.n.r.)			21.11.11 (Mo) 20:21		
+5_Paris_06_E.Hoessle.jpg		no	2:15	2:20	135.000	140.000	5.000	Brigitte Doser, Rosemarie Georgi, Elisabeth Hößle (v.l.n.r.)			21.11.11 (Mo) 20:23		
+5_Paris_07_E.Hoessle.jpg		no	2:20	2:25	140.000	145.000	5.000	Monika Doser, Günther Fink, Marlies Reichart,			21.11.11 (Mo) 20:26		
+5_Paris_08a_E.Hoessle.jpg		no	2:25	2:30	145.000	150.000	5.000	Brigitte Doser, Rosemarie Georgi, Elisabeth Hößle, Marlies Reichart, Monika Doser (v.l.n.r.)			21.11.11 (Mo) 21:10		
+5_Paris_08b_E.Hoessle.jpg		no	2:30	2:35	150.000	155.000	5.000	Monika Doser, Doris Heising, Brigitte Doser, Elisabeth Hößle (v.l.n.r.)			21.11.11 (Mo) 21:10		
+5_Paris_09_E.Hoessle.jpg		no	2:35	2:40	155.000	160.000	5.000	Brigitte Doser (seitlich), Monika Doser, Günther Fink, Marlies Reichart,			21.11.11 (Mo) 21:14		
+5_Paris_10_E.Hoessle.jpg		no	2:40	2:45	160.000	165.000	5.000	Rosemarie Georgi, Doris Heising, Gertrud Adam,			21.11.11 (Mo) 21:16		
+5_Paris_11_E.Hoessle.jpg		no	2:45	2:50	165.000	170.000	5.000	Doris Heising, Elisabeth Hößle, Monika Doser (v.l.n.r.)			21.11.11 (Mo) 21:18		
+5_Paris_12_E.Hoessle.jpg		no	2:50	2:55	170.000	175.000	5.000	Brigitte Doser, Rosemarie Georgi, Austauschschülerin,			21.11.11 (Mo) 21:20		
+5_Paris_13_E.Hoessle.jpg		no	2:55	3:00	175.000	180.000	5.000	Gertrud Adam, Brigitte Doser, Rosemarie Georgi (v.l.n.r.)			21.11.11 (Mo) 21:21		
+5_Paris_14_E.Hoessle.jpg		no	3:00	3:05	180.000	185.000	5.000	Elisabeth Hößle (rückwärts), Doris Heising, Peter John, Marlies Reichart,			21.11.11 (Mo) 21:22		
+5_Paris_15_E.Hoessle.jpg		no	3:05	3:10	185.000	190.000	5.000	Besuch aus Seeg (hinten), Monika Doser, Rosemarie Georgi (stehend),			21.11.11 (Mo) 21:24		
+5_Paris_16_E.Hoessle.jpg		no	3:10	3:15	190.000	195.000	5.000	Elisabeth Hößle (links) und Brigitte Doser (rechts daneben)			21.11.11 (Mo) 21:26		
+5_Paris_17_E.Hoessle.jpg		no	3:15	3:20	195.000	200.000	5.000	Elisabeth Hößle und Doris Heising (rechts)			21.11.11 (Mo) 19:49		
+6_Zams_0_E.Hoessle.jpg		no	3:20	3:25	200.000	205.000	5.000	Petra Loibl, Marita Simchen, Barbara Richter, Judith Gabler,			21.11.11 (Mo) 22:10		
+6_Zams_1_E.Hoessle.jpg		no	3:25	3:30	205.000	210.000	5.000	Marita Simchen, Angelika Hofer, Eva Enzinger, Barbara Richter,			21.11.11 (Mo) 22:12		
+7_Tanz_0_E.Hoessle.jpg		no	3:30	3:35	210.000	215.000	5.000	Angelika Brunhöfer, Klaus Ulrich Benedikt, Elisabeth Hößle, N.N.1 (aus Nesselwang),			21.11.11 (Mo) 22:19		
+7_Tanz_1_E.Hoessle.jpg		no	3:35	3:40	215.000	220.000	5.000	Angelika Brunhöfer, Klaus Ulrich Benedikt, Elisabeth Hößle (v.l.n.r.)			21.11.11 (Mo) 22:20		
+7_Tanz_2_E.Hoessle.jpg		no	3:40	3:45	220.000	225.000	5.000	Ulrike Wagner (ganz links)			21.11.11 (Mo) 22:21		
+7_Tanz_3_E.Hoessle.jpg		no	3:45	3:50	225.000	230.000	5.000	Ulrike Wagner (Mitte), Elisabeth Hößle (rechts dahinter)			21.11.11 (Mo) 22:23		
+8_Allgem_0_E.Hoessle.jpg		no	3:50	3:55	230.000	235.000	5.000	Rosemarie Georgi, Eva Funke, Marita Simchen, Petra Loibl,			21.11.11 (Mo) 22:00		
+8_Alm_0_E.Hoessle.jpg		no	3:55	4:00	235.000	240.000	5.000	Marita Simchen, Petra Loibl, Petra Dießenhauser, Brigitte Doser,			21.11.11 (Mo) 21:58		
+8_Fussball_H.Fischer.jpg		no	4:00	4:05	240.000	245.000	5.000	Fußballmannschaft K12:			24.7.17 (Mo) 20:01		
+8_Pause_H.Fischer.jpg		no	4:05	4:10	245.000	250.000	5.000	Pause in der Kollegstufe: Hubert Schilling, Hans Fischer, Otto Hurler, Richard Kunzmann (v.l.n.r.)			24.7.17 (Mo) 19:59		
+9_Bei_Fischer_1.jpg		no	4:10	4:15	250.000	255.000	5.000	Wolfgang Babel, Günther Fink, Monika Doser, Besuch von ?, Brigitte Doser, Hans Fischer (v.l.n.r.)			26.7.17 (Mi) 19:00		
+9_Bei_Fischer_2.jpg		no	4:15	4:20	255.000	260.000	5.000	Günther Fink, Monika Doser, Richard Kunzmann,			26.7.17 (Mi) 18:33		

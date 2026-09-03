@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Sonstige Videos WebApp">
+<title>Schulzeit</title>
+
+<link rel="stylesheet" href="../style.css">
+<link rel="manifest" href="../manifest.json">
+
+<link rel="apple-touch-icon" sizes="180x180" href="../icon-180.png">
+<link rel="apple-touch-icon" sizes="152x152" href="../icon-152.png">
+<link rel="apple-touch-icon" sizes="120x120" href="../icon-120.png">
+<link rel="apple-touch-icon" sizes="76x76" href="../icon-76.png">
+
+<link rel="icon" type="image/png" sizes="32x32" href="../favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../favicon-16.png">
+
+</head>
+<body>
+
+<div class="header-bar video-page">
+  <a href="../index.html">← Übersicht</a>
+  <div class="title">Schulzeit</div>
+  <noscript>
+    <span style="color: #cc0000; font-size: 0.7em; font-weight: bold; border: 1px solid #cc0000; padding: 2px 5px; border-radius: 4px; margin-left: 5px; white-space: nowrap;">
+      ⚠️ Java Script inaktiv: Steuerung/Ton mglw. limitiert
+    </span>
+  </noscript>
+  
+  <a class="spa-link" href="Schulzeit_thumbs.html" title="Galerie oben">🖼</a><a class="spa-link" href="Schulzeit_thumbs.html" title="Galerie Position wie Video">Bilder</a>
+  <a href="../index.html#Schulzeit">↺ Zurück zum Video</a>
+</div>
+
+<div id="video-wrapper">
+    <video id="player" controls playsinline loop poster="Schulzeit.jpg" data-timeline='{"0.000":"1_Berlin_01_E.Hoessle","5.000":"1_Berlin_02_E.Hoessle","10.000":"1_Berlin_03_E.Hoessle","15.000":"1_Berlin_04_E.Hoessle","20.000":"1_Berlin_05_E.Hoessle","25.000":"1_Berlin_06_E.Hoessle","30.000":"1_Berlin_07_E.Hoessle","35.000":"1_Berlin_07a_E.Hoessle","40.000":"1_Berlin_08_E.Hoessle","45.000":"1_Berlin_09_E.Hoessle","50.000":"1_Berlin_10_E.Hoessle","55.000":"2_Wann_0_E.Hoessle","60.000":"2_Wann_1_E.Hoessle","65.000":"2_Wann_2_E.Hoessle","70.000":"2_Wann_3_E.Hoessle","75.000":"2_Wann_4_E.Hoessle","80.000":"3_Herbst_72_0_E.Hoessle","85.000":"3_Herbst_72_1_E.Hoessle","90.000":"4_Muenchen_0_E.Hoessle","95.000":"4_Muenchen_1_E.Hoessle","100.000":"4_Muenchen_2_E.Hoessle","105.000":"4_Muenchen_3_E.Hoessle","110.000":"5_Paris_01_E.Hoessle","115.000":"5_Paris_02_E.Hoessle","120.000":"5_Paris_03_E.Hoessle","125.000":"5_Paris_04_E.Hoessle","130.000":"5_Paris_05_E.Hoessle","135.000":"5_Paris_06_E.Hoessle","140.000":"5_Paris_07_E.Hoessle","145.000":"5_Paris_08a_E.Hoessle","150.000":"5_Paris_08b_E.Hoessle","155.000":"5_Paris_09_E.Hoessle","160.000":"5_Paris_10_E.Hoessle","165.000":"5_Paris_11_E.Hoessle","170.000":"5_Paris_12_E.Hoessle","175.000":"5_Paris_13_E.Hoessle","180.000":"5_Paris_14_E.Hoessle","185.000":"5_Paris_15_E.Hoessle","190.000":"5_Paris_16_E.Hoessle","195.000":"5_Paris_17_E.Hoessle","200.000":"6_Zams_0_E.Hoessle","205.000":"6_Zams_1_E.Hoessle","210.000":"7_Tanz_0_E.Hoessle","215.000":"7_Tanz_1_E.Hoessle","220.000":"7_Tanz_2_E.Hoessle","225.000":"7_Tanz_3_E.Hoessle","230.000":"8_Allgem_0_E.Hoessle","235.000":"8_Alm_0_E.Hoessle","240.000":"8_Fussball_H.Fischer","245.000":"8_Pause_H.Fischer","250.000":"9_Bei_Fischer_1","255.000":"9_Bei_Fischer_2"}' data-timeline-chapters='{"0.000":"1_Berlin_01_E.Hoessle"}'>
+        <source src="Schulzeit.mp4" type="video/mp4">
+    </video>
+
+    <button id="toggle-chapters" title="Kapitel anzeigen (verschiebbar)">
+        <svg viewBox="0 0 24 24"><path d="M3 13h2v-2H3v2zm0 4h2v-2H3v2zm0-8h2V7H3v2zm4 4h14v-2H7v2zm0 4h14v-2H7v2zM7 7v2h14V7H7z"/></svg>
+    </button>
+
+    <nav id="chapter-nav" class="hidden"></nav>
+</div>
+
+<div id="thumbs-overlay">
+    <button id="close-overlay" title="Galerie schließen">&times;</button>
+    <div id="thumbs-content-target"></div>
+</div>
+
+<script src="../video.js"></script>
+
+</body>
+</html>

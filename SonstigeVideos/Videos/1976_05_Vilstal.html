@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Sonstige Videos WebApp">
+<title>1976_05_Vilstal</title>
+
+<link rel="stylesheet" href="../style.css">
+<link rel="manifest" href="../manifest.json">
+
+<link rel="apple-touch-icon" sizes="180x180" href="../icon-180.png">
+<link rel="apple-touch-icon" sizes="152x152" href="../icon-152.png">
+<link rel="apple-touch-icon" sizes="120x120" href="../icon-120.png">
+<link rel="apple-touch-icon" sizes="76x76" href="../icon-76.png">
+
+<link rel="icon" type="image/png" sizes="32x32" href="../favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../favicon-16.png">
+
+</head>
+<body>
+
+<div class="header-bar video-page">
+  <a href="../index.html">← Übersicht</a>
+  <div class="title">1976_05_Vilstal</div>
+  <noscript>
+    <span style="color: #cc0000; font-size: 0.7em; font-weight: bold; border: 1px solid #cc0000; padding: 2px 5px; border-radius: 4px; margin-left: 5px; white-space: nowrap;">
+      ⚠️ Java Script inaktiv: Steuerung/Ton mglw. limitiert
+    </span>
+  </noscript>
+  
+  <a class="spa-link" href="1976_05_Vilstal_thumbs.html" title="Galerie oben">🖼</a><a class="spa-link" href="1976_05_Vilstal_thumbs.html" title="Galerie Position wie Video">Bilder</a>
+  <a href="../index.html#1976_05_Vilstal">↺ Zurück zum Video</a>
+</div>
+
+<div id="video-wrapper">
+    <video id="player" controls playsinline loop poster="1976_05_Vilstal.jpg" data-timeline='{"0.000":"aaa_IMG_4072","5.000":"IMG_4068","10.000":"IMG_4069","15.000":"IMG_4070","20.000":"IMG_4071","25.000":"IMG_4072","30.000":"IMG_4073","35.000":"IMG_4074","40.000":"IMG_4075","45.000":"IMG_4076","50.000":"IMG_4077","55.000":"IMG_4078","60.000":"IMG_4079","65.000":"IMG_4080","70.000":"IMG_4081","75.000":"IMG_4082","80.000":"IMG_4083","85.000":"IMG_4084","90.000":"IMG_4085","95.000":"IMG_4086","100.000":"IMG_4087","105.000":"IMG_4088","110.000":"IMG_4089","115.000":"IMG_4090","120.000":"IMG_4091","125.000":"IMG_4092","130.000":"IMG_4093","135.000":"IMG_4094","140.000":"IMG_4095","145.000":"IMG_4096","150.000":"IMG_4097","155.000":"IMG_4098","160.000":"IMG_4099","165.000":"IMG_6082","170.000":"IMG_6083","175.000":"IMG_6084","180.000":"IMG_6085","185.000":"IMG_6086"}' data-timeline-chapters='{"0.000":"aaa_IMG_4072"}'>
+        <source src="1976_05_Vilstal.mp4" type="video/mp4">
+    </video>
+
+    <button id="toggle-chapters" title="Kapitel anzeigen (verschiebbar)">
+        <svg viewBox="0 0 24 24"><path d="M3 13h2v-2H3v2zm0 4h2v-2H3v2zm0-8h2V7H3v2zm4 4h14v-2H7v2zm0 4h14v-2H7v2zM7 7v2h14V7H7z"/></svg>
+    </button>
+
+    <nav id="chapter-nav" class="hidden"></nav>
+</div>
+
+<div id="thumbs-overlay">
+    <button id="close-overlay" title="Galerie schließen">&times;</button>
+    <div id="thumbs-content-target"></div>
+</div>
+
+<script src="../video.js"></script>
+
+</body>
+</html>

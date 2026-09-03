@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Sonstige Videos WebApp">
+<title>2022_07_30_Klassentreffen</title>
+
+<link rel="stylesheet" href="../style.css">
+<link rel="manifest" href="../manifest.json">
+
+<link rel="apple-touch-icon" sizes="180x180" href="../icon-180.png">
+<link rel="apple-touch-icon" sizes="152x152" href="../icon-152.png">
+<link rel="apple-touch-icon" sizes="120x120" href="../icon-120.png">
+<link rel="apple-touch-icon" sizes="76x76" href="../icon-76.png">
+
+<link rel="icon" type="image/png" sizes="32x32" href="../favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../favicon-16.png">
+
+</head>
+<body>
+
+<div class="header-bar video-page">
+  <a href="../index.html">← Übersicht</a>
+  <div class="title">2022_07_30_Klassentreffen</div>
+  <noscript>
+    <span style="color: #cc0000; font-size: 0.7em; font-weight: bold; border: 1px solid #cc0000; padding: 2px 5px; border-radius: 4px; margin-left: 5px; white-space: nowrap;">
+      ⚠️ Java Script inaktiv: Steuerung/Ton mglw. limitiert
+    </span>
+  </noscript>
+  
+  <a class="spa-link" href="2022_07_30_Klassentreffen_thumbs.html" title="Galerie oben">🖼</a><a class="spa-link" href="2022_07_30_Klassentreffen_thumbs.html" title="Galerie Position wie Video">Bilder</a>
+  <a href="../index.html#2022_07_30_Klassentreffen">↺ Zurück zum Video</a>
+</div>
+
+<div id="video-wrapper">
+    <video id="player" controls playsinline loop poster="2022_07_30_Klassentreffen.jpg" data-timeline='{"0.000":"aaaIMG_2235","5.000":"IMG_2201","10.000":"IMG_2202","15.000":"IMG_2203","20.000":"IMG_2204","25.000":"IMG_2205","30.000":"IMG_2206","35.000":"IMG_2207","40.000":"IMG_2208","45.000":"IMG_2209","50.000":"IMG_2210","55.000":"IMG_2211","60.000":"IMG_2212","65.000":"IMG_2213","70.000":"IMG_2213a","75.000":"IMG_2214","80.000":"IMG_2215","85.000":"IMG_2216","90.000":"IMG_2217","95.000":"IMG_2219","100.000":"IMG_2220","105.000":"IMG_2221","110.000":"IMG_2222","115.000":"IMG_2223","120.000":"IMG_2224","125.000":"IMG_2225","130.000":"IMG_2226","135.000":"IMG_2227","140.000":"IMG_2228","145.000":"IMG_2229","150.000":"IMG_2230","155.000":"IMG_2231","160.000":"IMG_2232","165.000":"IMG_2233","170.000":"IMG_2234","175.000":"IMG_2236","180.000":"IMG_2237","185.000":"IMG_2238","190.000":"IMG_2239","195.000":"IMG_2240","200.000":"IMG_2241","205.000":"IMG_2242","210.000":"IMG_2243","215.000":"IMG_2244","220.000":"IMG_2245"}' data-timeline-chapters='{"0.000":"aaaIMG_2235"}'>
+        <source src="2022_07_30_Klassentreffen.mp4" type="video/mp4">
+    </video>
+
+    <button id="toggle-chapters" title="Kapitel anzeigen (verschiebbar)">
+        <svg viewBox="0 0 24 24"><path d="M3 13h2v-2H3v2zm0 4h2v-2H3v2zm0-8h2V7H3v2zm4 4h14v-2H7v2zm0 4h14v-2H7v2zM7 7v2h14V7H7z"/></svg>
+    </button>
+
+    <nav id="chapter-nav" class="hidden"></nav>
+</div>
+
+<div id="thumbs-overlay">
+    <button id="close-overlay" title="Galerie schließen">&times;</button>
+    <div id="thumbs-content-target"></div>
+</div>
+
+<script src="../video.js"></script>
+
+</body>
+</html>

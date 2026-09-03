@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Sonstige Videos WebApp">
+<title>2018_schoene_Bilder</title>
+
+<link rel="stylesheet" href="../style.css">
+<link rel="manifest" href="../manifest.json">
+
+<link rel="apple-touch-icon" sizes="180x180" href="../icon-180.png">
+<link rel="apple-touch-icon" sizes="152x152" href="../icon-152.png">
+<link rel="apple-touch-icon" sizes="120x120" href="../icon-120.png">
+<link rel="apple-touch-icon" sizes="76x76" href="../icon-76.png">
+
+<link rel="icon" type="image/png" sizes="32x32" href="../favicon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../favicon-16.png">
+
+</head>
+<body>
+
+<div class="header-bar video-page">
+  <a href="../index.html">← Übersicht</a>
+  <div class="title">2018_schoene_Bilder</div>
+  <noscript>
+    <span style="color: #cc0000; font-size: 0.7em; font-weight: bold; border: 1px solid #cc0000; padding: 2px 5px; border-radius: 4px; margin-left: 5px; white-space: nowrap;">
+      ⚠️ Java Script inaktiv: Steuerung/Ton mglw. limitiert
+    </span>
+  </noscript>
+  
+  <a class="spa-link" href="2018_schoene_Bilder_thumbs.html" title="Galerie oben">🖼</a><a class="spa-link" href="2018_schoene_Bilder_thumbs.html" title="Galerie Position wie Video">Bilder</a>
+  <a href="../index.html#2018_schoene_Bilder">↺ Zurück zum Video</a>
+</div>
+
+<div id="video-wrapper">
+    <video id="player" controls playsinline loop poster="2018_schoene_Bilder.jpg" data-timeline='{"0.000":"EzWcWxC_Unbek_9000","5.000":"EzXqAyS_iPh5s_3613","10.000":"FaDmEkE_iPh5s_3627","15.000":"FaDmJuS_iPhSE_6019","20.000":"FaGiXfT_iPhSE_0032","25.000":"FaKwYcM_Unbek_0801","30.000":"FaKwYeU_Unbek_0802","35.000":"FaOgCwN_iPhSE_0101","40.000":"FbFqIxD_iPhSE_0423","45.000":"FbOeQgS_iPhSE_0510","50.000":"FbPbWeZ_iPhSE_0511"}' data-timeline-chapters='{"0.000":"EzWcWxC_Unbek_9000"}'>
+        <source src="2018_schoene_Bilder.mp4" type="video/mp4">
+    </video>
+
+    <button id="toggle-chapters" title="Kapitel anzeigen (verschiebbar)">
+        <svg viewBox="0 0 24 24"><path d="M3 13h2v-2H3v2zm0 4h2v-2H3v2zm0-8h2V7H3v2zm4 4h14v-2H7v2zm0 4h14v-2H7v2zM7 7v2h14V7H7z"/></svg>
+    </button>
+
+    <nav id="chapter-nav" class="hidden"></nav>
+</div>
+
+<div id="thumbs-overlay">
+    <button id="close-overlay" title="Galerie schließen">&times;</button>
+    <div id="thumbs-content-target"></div>
+</div>
+
+<script src="../video.js"></script>
+
+</body>
+</html>
